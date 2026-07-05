@@ -6,7 +6,7 @@ export default function handler(req, res) {
 
   const p = Math.min(Math.max(parseFloat(progress) || 0, 0), 100);
 
-  const circumference = 251;
+  const circumference = 289; 
   const offset = circumference - (p / 100) * circumference;
 
   const svg = `
